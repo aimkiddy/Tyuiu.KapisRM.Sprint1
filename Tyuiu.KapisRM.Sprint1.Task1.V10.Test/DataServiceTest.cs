@@ -2,6 +2,7 @@
 {
     using Microsoft.VisualStudio.TestTools.UnitTesting;
     using Tyuiu.KapisRM.Sprint1.Task1.V10.Lib;
+    using tyuiu.cources.programming.interfaces.Sprint1;
 
     [TestClass]
     public sealed class DataServiceTest

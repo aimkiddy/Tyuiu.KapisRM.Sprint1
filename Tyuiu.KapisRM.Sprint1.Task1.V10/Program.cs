@@ -1,5 +1,6 @@
 ﻿using System;
 using Tyuiu.KapisRM.Sprint1.Task1.V10.Lib;
+using tyuiu.cources.programming.interfaces.Sprint1;
 
 namespace Tyuiu.KapisRM.Sprint1.Task1.V10
 {
