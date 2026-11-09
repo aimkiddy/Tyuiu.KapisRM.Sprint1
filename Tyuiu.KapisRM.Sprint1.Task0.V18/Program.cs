@@ -47,6 +47,3 @@ namespace Tyuiu.KapisRM.Sprint1.Task0.V18
         }
     }
 }
-
-        
-

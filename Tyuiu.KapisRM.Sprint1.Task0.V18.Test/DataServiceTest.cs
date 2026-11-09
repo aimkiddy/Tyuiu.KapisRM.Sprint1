@@ -10,7 +10,7 @@ namespace Tyuiu.KapisRM.Sprint1.Task0.V18.Test
         [TestMethod]
         public void TestMethod1()
         { }
-            public class DataServiceTest
+        public class DataServiceTest
         {
             [TestMethod]
             public void ValidExpression()
@@ -26,6 +26,4 @@ namespace Tyuiu.KapisRM.Sprint1.Task0.V18.Test
             }
         }
     }
-
 }
-    
