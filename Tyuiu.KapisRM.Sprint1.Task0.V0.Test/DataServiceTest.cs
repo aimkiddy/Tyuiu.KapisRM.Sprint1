@@ -4,7 +4,7 @@ using System;
 using Tyuiu.KapisRM.Sprint1.Task0.V18.Lib;
 
 
-namespace Tyuiu.KapisRM.Sprint1.Task0.V0.Test
+namespace Tyuiu.KapisRM.Sprint1.Task0.V18.Test
 {
     [TestClass]
     public class DataServiceTest
