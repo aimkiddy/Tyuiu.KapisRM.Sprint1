@@ -11,9 +11,11 @@ namespace Tyuiu.KapisRM.Sprint1.Task3.V6.Test
         {
             DataService ds = new DataService();
             double distance = 67;
-            double consumption = 8.5;
-            double price = 6.5;
-            var res = ds.Calculate(distance, consumption, price);
+            double gasFlow = 8.5;
+            double gasPrice = 6.5;
+
+            var res = ds.TravelCost(distance, gasFlow, gasPrice);
+
             Assert.AreEqual(74.035, res);
         }
     }

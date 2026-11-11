@@ -13,7 +13,7 @@ namespace Tyuiu.KapisRM.Sprint1.Task3.V6
 
             Console.WriteLine("**************************************************************************************************************");
             Console.WriteLine("* Спринт #1                                                                                                   *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                                                      *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                                                        *");
             Console.WriteLine("* Задание #3                                                                                                  *");
             Console.WriteLine("* Вариант #6                                                                                                  *");
             Console.WriteLine("* Выполнил: Капис Роман Максимович | СМАРТб-26-1                                                              *");
@@ -27,22 +27,21 @@ namespace Tyuiu.KapisRM.Sprint1.Task3.V6
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                                            *");
             Console.WriteLine("**************************************************************************************************************");
 
-            double distance, consumption, price;
-
             Console.Write("Расстояние до дачи (км) -> ");
-            distance = Convert.ToDouble(Console.ReadLine());
+            double distance = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Расход бензина (литров на 100 км пробега) -> ");
-            consumption = Convert.ToDouble(Console.ReadLine());
+            double gasFlow = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Цена литра бензина (руб.) -> ");
-            price = Convert.ToDouble(Console.ReadLine());
+            double gasPrice = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                                  *");
             Console.WriteLine("**************************************************************************************************************");
 
-            double res = ds.Calculate(distance, consumption, price);
+            
+            double res = ds.TravelCost(distance, gasFlow, gasPrice);
 
             Console.WriteLine($"Поездка на дачу и обратно обойдется в {res} руб.");
 
