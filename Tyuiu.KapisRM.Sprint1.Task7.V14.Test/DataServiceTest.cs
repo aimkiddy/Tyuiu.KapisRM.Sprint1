@@ -10,10 +10,9 @@ namespace Tyuiu.KapisRM.Sprint1.Task7.V14.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double a = 1.0;
-            double b = 1.0;
-            double c = 1.0; 
-            var res = ds.Calculate(a, b, c);
+            double x = 1.0;
+            double y = 1.0;
+            var res = ds.Calculate(x, y);
 
             Assert.AreEqual(2.536, res);
         }

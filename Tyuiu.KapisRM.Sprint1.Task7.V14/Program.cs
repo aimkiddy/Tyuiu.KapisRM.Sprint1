@@ -27,22 +27,19 @@ namespace Tyuiu.KapisRM.Sprint1.Task7.V14
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                                            *");
             Console.WriteLine("**************************************************************************************************************");
 
-            double a, b, c;
+            double x, y;
 
-            Console.Write("Введите значение X (a): ");
-            a = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите значение X: ");
+            x = Convert.ToDouble(Console.ReadLine());
 
-            Console.Write("Введите значение Y (b): ");
-            b = Convert.ToDouble(Console.ReadLine());
-
-            Console.Write("Введите значение третьего параметра (c): ");
-            c = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите значение Y: ");
+            y = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                                                  *");
             Console.WriteLine("**************************************************************************************************************");
 
-            double res = ds.Calculate(a, b, c);
+            double res = ds.Calculate(x, y);
 
             Console.WriteLine($"Результат вычисления по формуле = {res}");
 
